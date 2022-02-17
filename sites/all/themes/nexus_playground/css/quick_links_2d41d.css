@@ -1,0 +1,380 @@
+#quick-links {
+  clear: left;
+}
+
+@media all and (min-width: 768px) {
+  /* line 846, ../sass/_home.scss */
+  #quick-links {
+    float: left;
+    width: 66.66667%;
+    margin-left: 0%;
+    margin-right: -66.66667%;
+  }
+}
+
+#quick-links ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+#quick-links ul li {
+  font-family: "ProximaNova-Light", Helvetica, Arial, sans-serif;
+  color: white;
+}
+
+@media only screen and (min-width: 320px) and (max-width: 480px) {
+  #quick-links ul li {
+    margin-top: 2px;
+  }
+}
+
+@media only screen and (min-width: 481px) and (max-width: 767px) {
+  #quick-links ul li {
+    margin-top: 2px;
+  }
+}
+
+@media all and (min-width: 768px) {
+  #quick-links ul li {
+    width: 234px;
+    margin-bottom: 15px;
+    font-size: 22px;
+  }
+}
+
+#quick-links ul li a {
+  display: block;
+  background: #e6e6e8;
+}
+
+#quick-links ul li a div.hasText {
+  height: 35px;
+  box-sizing: border-box;
+  width: 234px;
+  font-size: 22px;
+  color: white;
+  padding: 4px 0 4px 11px;
+  -moz-transition: all 300ms;
+  -o-transition: all 300ms;
+  -webkit-transition: all 300ms;
+  transition: all 300ms;
+}
+
+@media only screen and (max-width: 767px) {
+  #quick-links ul li a div.hasText {
+    width: 150px;
+    font-size: 18px;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 959px) {
+  #quick-links ul li a div.hasText {
+    width: 175px;
+    font-size: 18px;
+  }
+}
+
+#quick-links ul li a:hover div.hasText {
+  width: 356px;
+  -moz-transition: width 300ms;
+  -o-transition: width 300ms;
+  -webkit-transition: width 300ms;
+  transition: width 300ms;
+  color: rgba(255, 255, 255, 0.8);
+}
+
+@media only screen and (max-width: 767px) {
+  #quick-links ul li a:hover div.hasText {
+    width: 190px;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 959px) {
+  #quick-links ul li a:hover div.hasText {
+    width: 195px;
+  }
+}
+
+#quick-links ul li a:hover div.lastTriangle {
+  width: 80px;
+}
+
+
+
+ul#quickLinks a{
+display: block;
+background: #e6e6e8;
+width: 100%;
+height: 100%;
+}
+
+ul#quickLinks li{
+margin-bottom: 22px;
+}
+
+.hasText{
+  height: 100%;
+  width: 20%;
+  color: white;
+  font-weight: bold;
+  padding-left: 10px;
+  padding-top: 1%;
+}
+
+.bgGreen0 {
+  background-color: #17b741;
+}
+
+.bgGreen1 {
+  background-color: #1da343;
+}
+
+.bgGreen2 {
+  background-color: #258945;
+}
+
+.bgGreen3 {
+  background-color: #306847;
+}
+
+.bgPurple0 {
+  background-color: #a6278e;
+}
+
+.bgPurple1 {
+  background-color: #952b83;
+}
+
+.bgPurple2 {
+  background-color: #7f3075;
+}
+
+.bgPurple3 {
+  background-color: #623662;
+}
+
+.bgYellow0 {
+  background-color: #b7851b;
+}
+
+.bgYellow1 {
+  background-color: #a37923;
+}
+
+.bgYellow2 {
+  background-color: #896a2d;
+}
+
+.bgYellow3 {
+  background-color: #68573a;
+}
+.bgBlue0 {
+  background-color: #3b96b1;
+}
+
+.bgBlue1 {
+  background-color: #3b88a0;
+}
+
+.bgBlue2 {
+  background-color: #3b758a;
+}
+
+.bgBlue3 {
+  background-color: #3c5d6e;
+}
+
+.bgRed0 {
+  background-color: #b42b2f;
+}
+
+.bgRed1 {
+  background-color: #a02e34;
+}
+
+.bgRed2 {
+  background-color: #87323a;
+}
+
+.bgRed3 {
+  background-color: #673741;
+}
+
+.bgGreyMid {
+  background-color: #72737a;
+}
+
+.bgGreyLight {
+  background-color: #87878e;
+}
+
+.bgGrey0 {
+  background-color: #3d3e4a;
+}
+
+.bgGrey1 {
+  background-color: #bdbdc2;
+}
+
+.bgGrey2 {
+  background-color: #d0d0d4;
+}
+
+.bgGrey3 {
+  background-color: #e6e6e8;
+}
+.bgWhite {
+  background-color: white;
+}
+
+.u-h35 {
+  height: 35px;
+}
+
+.u-w100 {
+  width: 100px;
+}
+
+.u-w23 {
+  width: 23px;
+}
+
+.triangle {
+  width: 0;
+  height: 0;
+  border-style: solid;
+  -moz-transform: scale(0.9999);
+}
+.triangle.hidden-mobile {
+  display: none;
+}
+
+.triangle.left {
+  border-width: 35px 23px 0 0;
+}
+.triangle.right {
+  border-width: 35px 0 0 23px;
+}
+
+.triWhiteTrans {
+  border-color: rgba(255, 255, 255, 0.3) transparent transparent transparent;
+}
+
+.triGreen0 {
+  border-color: #17b741 transparent transparent transparent;
+}
+
+.triGreen1 {
+  border-color: #1da343 transparent transparent transparent;
+}
+
+.triGreen2 {
+  border-color: #258945 transparent transparent transparent;
+}
+
+.triGreen3 {
+  border-color: #306847 transparent transparent transparent;
+}
+
+.triPurple0 {
+  border-color: #a6278e transparent transparent transparent;
+}
+.triPurple1 {
+  border-color: #952b83 transparent transparent transparent;
+}
+
+.triPurple2 {
+  border-color: #7f3075 transparent transparent transparent;
+}
+
+.triPurple3 {
+  border-color: #623662 transparent transparent transparent;
+}
+
+.triYellow0 {
+  border-color: #b7851b transparent transparent transparent;
+}
+
+.triYellow1 {
+  border-color: #a37923 transparent transparent transparent;
+}
+
+.triYellow2 {
+  border-color: #896a2d transparent transparent transparent;
+}
+
+.triYellow3 {
+  border-color: #68573a transparent transparent transparent;
+}
+
+.triRed0 {
+  border-color: #b42b2f transparent transparent transparent;
+}
+
+.triRed1 {
+  border-color: #a02e34 transparent transparent transparent;
+}
+
+.triRed2 {
+  border-color: #87323a transparent transparent transparent;
+}
+
+.triRed3 {
+  border-color: #673741 transparent transparent transparent;
+}
+
+.triBlue0 {
+  border-color: #3b96b1 transparent transparent transparent;
+}
+
+.triBlue1 {
+  border-color: #3b88a0 transparent transparent transparent;
+}
+
+.triBlue2 {
+  border-color: #3b758a transparent transparent transparent;
+}
+
+.triBlue3 {
+  border-color: #3c5d6e transparent transparent transparent;
+}
+
+.triGreyMid {
+  border-color: #72737a transparent transparent transparent;
+}
+
+.triGreyLight {
+  border-color: #87878e transparent transparent transparent;
+}
+
+.triGrey0 {
+  border-color: #3d3e4a transparent transparent transparent;
+}
+
+.triGrey1 {
+  border-color: #bdbdc2 transparent transparent transparent;
+}
+
+.triGrey2 {
+  border-color: #d0d0d4 transparent transparent transparent;
+}
+
+.triGrey3 {
+  border-color: #e6e6e8 transparent transparent transparent;
+}
+.uLeft {
+  float: left;
+}
+
+.uRight {
+  float: right;
+}
+
+.uClear {
+  clear: both;
+}
+
+.u-h40 {
+  height: 40px;
+}
+
