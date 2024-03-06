@@ -1,6 +1,4 @@
-Geospatial Data Science with Python
-
-Description:
+# Geospatial Data Science with Python
 
 Geospatial data analysis is essential in fields like geography, urban planning, and environmental science. This detailed guide will demonstrate the capabilities of Python in handling geospatial data. From working with raster and vector data to conducting spatial operations and creating interactive maps, we will explore the world of GIS analysis using popular Python libraries.
 
